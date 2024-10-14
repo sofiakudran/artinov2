@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/biography.css">
+	<title>Artinov in Vinnytsia</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header class="header" aria-label="Шапка сайту">
+			<h1 class="header__title">Головні архітектурні об'єкти Григорія Артинова у Вінниці</h1>
+			<img class="logo" src="../images/лого.png">
+		</header>
+		<nav class="sort" id="sort">
+			<div class="burger" onclick="toggleMobileMenu()">
+				<div class="burger__bar"></div>
+				<div class="burger__bar"></div>
+				<div class="burger__bar"></div>
+			</div>
+			<a class="sort__item" href="../index.html">Головна</a>
+			<a class="sort__item" href="../pages/biography.html">Біографія</a>
+			<a class="sort__item" href="../pages/objects.html">Архітектурні об'єкти</a>
+			<a class="sort__item" href="../pages/map.html">Розташування</a>
+		</nav>
+		<main class="content">
+			<article class="bio">
+				<header class="header_bio">Біографія Григорія Артинова</header>
+					<section class="text_bio">
+						<img class="portrait" src="../images/artynov_3.png">
+						<p>
+							Григорій Артинов (1860–1919) — видатний український архітектор, який зробив значний внесок у розвиток архітектури Вінниці на початку ХХ століття. Народився в сім'ї священника у невеликому селі на Чернігівщині. Отримав освіту в Петербурзькому інституті цивільних інженерів, що стало фундаментом для його майбутньої успішної кар'єри архітектора.
+							<br>
+							З 1899 року Григорій Артинов обіймав посаду головного архітектора Вінниці. Протягом майже двох десятиліть він активно працював над формуванням архітектурного обличчя міста, створюючи численні проєкти громадських і житлових будівель, які й досі є візитівкою Вінниці.
+							<br>
+							Серед його найвідоміших проєктів — Вінницька міська дума, готель "Савой", театр, жіноча гімназія та водонапірна вежа, яка стала символом міста. Артинов також займався благоустроєм міста, проєктуючи вулиці та площі, впроваджуючи нові інженерні рішення, такі як водопостачання та освітлення.
+							<br>
+							Його роботи вирізняються гармонійним поєднанням класичних архітектурних форм і модернових елементів, що робить їх унікальними та впізнаваними. Григорій Артинов залишив після себе багату архітектурну спадщину, яка й досі визначає обличчя сучасної Вінниці.
+							<br>
+							Архітектурна спадщина Артинова — це не лише матеріальні будівлі, а й культурний внесок у розвиток міста, який зробив його невід'ємною частиною історії Вінниці
+						</p>
+					</section>
+			</article>
+		</main>
+		<footer class="footer">
+			<article class="inform">
+				<p>Телефон <br> (096)40-16-896</p>
+				<p>E-mail <br> sofia.kudran@gmail.com</p>
+				<p>Адреса <br> м.Вінниця, вул.Соборна 3</p>
+			</article>
+		</footer>
+	</div>
+	<script type="text/javascript">
+		const nav = document.getElementById('sort');
+
+		function toggleMobileMenu() {
+			nav.classList.toggle('open');
+		}
+	</script>
+</body>
+</html>

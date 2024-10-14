@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/map.css">
+	<script defer type="text/javascript" src="../script/app.js"></script>
+	<title>Artinov in Vinnytsia</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header class="header" aria-label="Шапка сайту">
+			<h1 class="header__title">Головні архітектурні об'єкти Григорія Артинова у Вінниці</h1>
+			<img class="logo" src="../images/лого.png">
+		</header>
+		<nav class="sort" id="sort">
+			<div class="burger" onclick="toggleMobileMenu()">
+				<div class="burger__bar"></div>
+				<div class="burger__bar"></div>
+				<div class="burger__bar"></div>
+			</div>
+			<a class="sort__item" href="../index.html">Головна</a>
+			<a class="sort__item" href="../pages/biography.html">Біографія</a>
+			<a class="sort__item" href="../pages/objects.html">Архітектурні об'єкти</a>
+			<a class="sort__item" href="../pages/map.html">Розташування</a>
+		</nav>
+		<main class="content">
+			<article class="map">
+				<header class="header_map">Розташування об'єктів, що були представленні на сайті</header>
+				<img class="map_img" src="../images/map.png">
+					<section class="text_map">
+						<p>
+							1. Водонапірна вежа<br>
+							2. Театр<br>
+							3. Готель "Савой"<br>
+							4. Будинок Райхера<br>
+							5. Ліцей №2<br>
+							6. Бібліотека (Тімірязева)<br>
+							7. Міська Дума<br>
+							8. Церква (Біля універмагу і філармонії)<br>
+							9. Будинок Брусилова<br>
+							10. Пам'ятник Григорію Артинову<br>
+						</p>
+					</section>
+			</article>
+		</main>
+		<footer class="footer">
+			<article class="inform">
+				<p>Телефон <br> (096)40-16-896</p>
+				<p>E-mail <br> sofia.kudran@gmail.com</p>
+				<p>Адреса <br> м.Вінниця, вул.Соборна 3</p>
+			</article>
+		</footer>
+	</div>
+	<script type="text/javascript">
+		const nav = document.getElementById('sort');
+
+		function toggleMobileMenu() {
+			nav.classList.toggle('open');
+		}
+	</script>
+</body>
+</html>
